@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <h3 className="font-display text-2xl font-bold text-gold mb-4">Kingdom of Oud</h3>
+            <img src={logo} alt="Kingdom of Oud" className="h-16 w-auto mb-4" />
             <p className="font-elegant text-lg text-muted-foreground leading-relaxed">
               L'art du parfum oriental depuis 2010. Authenticité, tradition et excellence.
             </p>
