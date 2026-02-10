@@ -30,9 +30,15 @@ const Index = () => {
             <p className="font-elegant text-lg text-muted-foreground tracking-[0.3em] uppercase mb-4">
               Depuis 2010
             </p>
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-gradient-gold mb-6 leading-tight">
+            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-gradient-gold mb-2 leading-tight">
               Kingdom of Oud
             </h1>
+            <p className="text-2xl md:text-3xl lg:text-4xl text-gold/90 mb-1" style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}>
+              مملكة العود
+            </p>
+            <p className="font-elegant text-lg md:text-xl text-foreground/60 tracking-[0.2em] uppercase mb-6">
+              Welcome to the Middle East
+            </p>
             <p className="font-elegant text-xl md:text-2xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">
               L'art du parfum oriental — Oud, Encens & Encensoirs de luxe
             </p>
