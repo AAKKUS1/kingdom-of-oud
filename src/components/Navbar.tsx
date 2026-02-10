@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { to: "/", label: "Accueil" },
@@ -18,8 +19,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link to="/" className="font-display text-xl lg:text-2xl font-bold text-gold tracking-wider">
-            Kingdom of Oud
+          <Link to="/" className="flex items-center gap-3">
+            <img src={logo} alt="Kingdom of Oud" className="h-10 lg:h-12 w-auto" />
           </Link>
 
           {/* Desktop */}
