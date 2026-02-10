@@ -8,7 +8,7 @@ const FloatingButtons = () => {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ delay: 1, type: "spring" }}
-        href="https://www.instagram.com/almamalakahh"
+        href="https://www.instagram.com/almamlakahh/"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
