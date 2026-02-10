@@ -49,7 +49,7 @@ const Footer = () => {
                 +33 6 23 41 35 95
               </a>
               <a
-                href="https://instagram.com/almamalakahh"
+                href="https://www.instagram.com/almamlakahh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-gold transition-colors"
