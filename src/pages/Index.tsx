@@ -98,9 +98,9 @@ const Index = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { icon: "✦", title: "Parfums d'Exception", desc: "Des fragrances intenses aux accords orientaux uniques" },
-              { icon: "◆", title: "Oud & Encens", desc: "Les plus nobles essences pour vos rituels de bien-être" },
-              { icon: "❖", title: "Encensoirs de Luxe", desc: "Des pièces d'art aux finitions dorées et pierres précieuses" },
+              { icon: "✦", title: "Parfums & Oil Perfumes", desc: "Des fragrances intenses et huiles parfumées aux accords orientaux" },
+              { icon: "◆", title: "Oud Wood & Résine", desc: "Les plus nobles bois d'oud et résines Luban Hojari d'Oman" },
+              { icon: "❖", title: "Accessoires", desc: "Encensoirs en cristal, verre, métal et artisanaux d'exception" },
             ].map((item) => (
               <motion.div
                 key={item.title}
