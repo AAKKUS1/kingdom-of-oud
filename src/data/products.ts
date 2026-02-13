@@ -1,15 +1,25 @@
-import parfumDubai from "@/assets/parfum-dubai.jpg";
-import royalAmber from "@/assets/royal-amber.jpg";
-import sultanOud from "@/assets/sultan-oud.jpg";
-import nuitOrientale from "@/assets/nuit-orientale.jpg";
-import oudPremium from "@/assets/oud-premium.jpg";
-import encensRoyal from "@/assets/encens-royal.jpg";
-import bakhoorLuxe from "@/assets/bakhoor-luxe.jpg";
-import encensoirSultan from "@/assets/encensoir-sultan.jpg";
-import encensoirRoyal from "@/assets/encensoir-royal.jpg";
-import encensoirClassique from "@/assets/encensoir-classique.jpg";
+import parfumMukhalatat from "@/assets/parfum-mukhalatat.jpg";
+import parfumOud from "@/assets/parfum-oud.jpg";
+import parfumMusc from "@/assets/parfum-musc.jpg";
+import oilDahin from "@/assets/oil-dahin.jpg";
+import oilMukhalatat from "@/assets/oil-mukhalatat.jpg";
+import oilMusc from "@/assets/oil-musc.jpg";
+import oudKalimantan from "@/assets/oud-kalimantan.jpg";
+import oudMorokee from "@/assets/oud-morokee.jpg";
+import oudCombodi from "@/assets/oud-combodi.jpg";
+import oudBuya from "@/assets/oud-buya.jpg";
+import oudHindi from "@/assets/oud-hindi.jpg";
+import oudVietnam from "@/assets/oud-vietnam.jpg";
+import lubanGreen from "@/assets/luban-green.jpg";
+import lubanWhite from "@/assets/luban-white.jpg";
+import lubanRed from "@/assets/luban-red.jpg";
+import lubanBlack from "@/assets/luban-black.jpg";
 import mabsoos from "@/assets/mabsoos.jpg";
 import maamoul from "@/assets/maamoul.jpg";
+import encensoirCristal from "@/assets/encensoir-cristal.jpg";
+import encensoirArtisanale from "@/assets/encensoir-artisanale.jpg";
+import encensoirMetal from "@/assets/encensoir-metal.jpg";
+import encensoirVerre from "@/assets/encensoir-verre.jpg";
 
 export type Product = {
   id: string;
@@ -30,7 +40,7 @@ export const products: Product[] = [
     description: "Un mélange raffiné de notes orientales, alliance parfaite de traditions et de modernité pour une signature olfactive unique.",
     notes: "Oud, Musc, Ambre, Épices",
     featured: true,
-    image: parfumDubai,
+    image: parfumMukhalatat,
   },
   {
     id: "parfum-oud",
@@ -39,7 +49,7 @@ export const products: Product[] = [
     description: "L'essence pure du oud dans un parfum intense et envoûtant. Une fragrance noble aux accords boisés profonds.",
     notes: "Oud, Bois de Santal, Résine",
     featured: true,
-    image: sultanOud,
+    image: parfumOud,
   },
   {
     id: "parfum-musc",
@@ -47,7 +57,7 @@ export const products: Product[] = [
     category: "parfums",
     description: "Un musc délicat et sensuel, empreint de douceur orientale. Élégance et raffinement au quotidien.",
     notes: "Musc Blanc, Ambre, Vanille",
-    image: royalAmber,
+    image: parfumMusc,
   },
 
   // Oil Perfumes
@@ -58,7 +68,7 @@ export const products: Product[] = [
     description: "Huile de parfum concentrée au oud pur. Application précise pour une tenue exceptionnelle tout au long de la journée.",
     notes: "Oud, Ambre, Bois précieux",
     featured: true,
-    image: nuitOrientale,
+    image: oilDahin,
   },
   {
     id: "oil-mukhalatat",
@@ -66,7 +76,7 @@ export const products: Product[] = [
     category: "oil-perfumes",
     description: "Huile parfumée aux notes orientales complexes. Un mukhalatat traditionnel en format huile pour une diffusion subtile.",
     notes: "Oud, Musc, Fleurs orientales",
-    image: parfumDubai,
+    image: oilMukhalatat,
   },
   {
     id: "oil-musc",
@@ -74,7 +84,7 @@ export const products: Product[] = [
     category: "oil-perfumes",
     description: "Huile de musc pure et enveloppante. Un classique intemporel de la parfumerie orientale en version concentrée.",
     notes: "Musc, Ambre, Vanille",
-    image: royalAmber,
+    image: oilMusc,
   },
 
   // Oud Wood
@@ -84,42 +94,42 @@ export const products: Product[] = [
     category: "oud-wood",
     description: "Bois d'oud de Kalimantan, réputé pour ses notes douces et résineuses. Une qualité exceptionnelle d'Indonésie.",
     featured: true,
-    image: oudPremium,
+    image: oudKalimantan,
   },
   {
     id: "oud-morokee",
     name: "Morokee",
     category: "oud-wood",
     description: "Oud Morokee aux arômes terreux et profonds. Un bois rare prisé par les connaisseurs.",
-    image: encensRoyal,
+    image: oudMorokee,
   },
   {
     id: "oud-combodi",
     name: "Combodi",
     category: "oud-wood",
     description: "Oud du Cambodge, considéré parmi les plus nobles. Notes sucrées et florales caractéristiques.",
-    image: bakhoorLuxe,
+    image: oudCombodi,
   },
   {
     id: "oud-buya",
     name: "Buya",
     category: "oud-wood",
     description: "Bois d'oud Buya aux senteurs intenses et persistantes. Idéal pour les cérémonies et occasions spéciales.",
-    image: oudPremium,
+    image: oudBuya,
   },
   {
     id: "oud-hindi",
     name: "Hindi",
     category: "oud-wood",
     description: "Oud Hindi d'Inde, le plus intense et le plus recherché. Des notes animales et boisées puissantes.",
-    image: encensRoyal,
+    image: oudHindi,
   },
   {
     id: "oud-vietnam",
     name: "Viet Nam",
     category: "oud-wood",
     description: "Oud vietnamien aux notes douces et florales. Une alternative élégante et subtile très appréciée.",
-    image: bakhoorLuxe,
+    image: oudVietnam,
   },
 
   // Résine
@@ -129,28 +139,28 @@ export const products: Product[] = [
     category: "resine",
     description: "Résine d'encens Hojari vert royal, la plus précieuse. Arôme frais et citronné d'une pureté exceptionnelle.",
     featured: true,
-    image: encensRoyal,
+    image: lubanGreen,
   },
   {
     id: "luban-pure-white",
     name: "Luban Hojari Pure White",
     category: "resine",
     description: "Encens Hojari blanc pur d'Oman. Notes douces et délicates, parfait pour la méditation et la relaxation.",
-    image: bakhoorLuxe,
+    image: lubanWhite,
   },
   {
     id: "luban-red",
     name: "Luban Hojari Red",
     category: "resine",
     description: "Résine Hojari rouge aux arômes chauds et enveloppants. Une variété rare aux propriétés aromatiques uniques.",
-    image: oudPremium,
+    image: lubanRed,
   },
   {
     id: "luban-black",
     name: "Luban Hojari Black",
     category: "resine",
     description: "Encens Hojari noir, intense et mystérieux. Des notes profondes et résineuses pour une ambiance envoûtante.",
-    image: encensRoyal,
+    image: lubanBlack,
   },
 
   // Encens
@@ -176,28 +186,28 @@ export const products: Product[] = [
     name: "Encensoir Cristal",
     category: "accessoires",
     description: "Encensoir en cristal aux reflets lumineux. Une pièce d'exception qui sublime votre intérieur avec élégance.",
-    image: encensoirSultan,
+    image: encensoirCristal,
   },
   {
     id: "encensoir-artisanale",
     name: "Encensoir Artisanale",
     category: "accessoires",
     description: "Encensoir fait main par des artisans traditionnels. Chaque pièce est unique, témoignage d'un savoir-faire ancestral.",
-    image: encensoirRoyal,
+    image: encensoirArtisanale,
   },
   {
     id: "encensoir-metal",
     name: "Encensoir Métal",
     category: "accessoires",
     description: "Encensoir en métal finement ciselé aux motifs orientaux. Robuste et élégant pour un usage quotidien.",
-    image: encensoirClassique,
+    image: encensoirMetal,
   },
   {
     id: "encensoir-verre",
     name: "Encensoir Verre",
     category: "accessoires",
     description: "Encensoir en verre soufflé aux teintes dorées. Alliance de modernité et de tradition orientale.",
-    image: encensoirSultan,
+    image: encensoirVerre,
   },
 ];
 
