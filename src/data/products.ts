@@ -8,11 +8,13 @@ import bakhoorLuxe from "@/assets/bakhoor-luxe.jpg";
 import encensoirSultan from "@/assets/encensoir-sultan.jpg";
 import encensoirRoyal from "@/assets/encensoir-royal.jpg";
 import encensoirClassique from "@/assets/encensoir-classique.jpg";
+import mabsoos from "@/assets/mabsoos.jpg";
+import maamoul from "@/assets/maamoul.jpg";
 
 export type Product = {
   id: string;
   name: string;
-  category: "parfums" | "oil-perfumes" | "oud-wood" | "resine" | "accessoires";
+  category: "parfums" | "oil-perfumes" | "oud-wood" | "resine" | "encens" | "accessoires";
   description: string;
   notes?: string;
   featured?: boolean;
@@ -151,6 +153,23 @@ export const products: Product[] = [
     image: encensRoyal,
   },
 
+  // Encens
+  {
+    id: "encens-mabsoos",
+    name: "Mabsoos",
+    category: "encens",
+    description: "Encens Mabsoos aux copeaux de bois d'oud imprégnés d'huiles parfumées. Un mélange traditionnel pour une ambiance chaleureuse et envoûtante.",
+    featured: true,
+    image: mabsoos,
+  },
+  {
+    id: "encens-maamoul",
+    name: "Maamoul",
+    category: "encens",
+    description: "Encens Maamoul, préparation artisanale de bois d'oud et de résines précieuses. Diffusion lente et parfum intense pour les grandes occasions.",
+    image: maamoul,
+  },
+
   // Accessoires
   {
     id: "encensoir-cristal",
@@ -188,6 +207,7 @@ export const categories = [
   { id: "oil-perfumes", label: "Oil Perfumes" },
   { id: "oud-wood", label: "Oud Wood" },
   { id: "resine", label: "Résine" },
+  { id: "encens", label: "Encens" },
   { id: "accessoires", label: "Accessoires" },
 ] as const;
 
