@@ -1,6 +1,16 @@
 import parfumMukhalatat from "@/assets/parfum-mukhalatat.jpg";
 import parfumOud from "@/assets/parfum-oud.jpg";
 import parfumMusc from "@/assets/parfum-musc.jpg";
+import parfumOudWood from "@/assets/parfum-oud-wood.jpg";
+import parfumBlueberryMusk from "@/assets/parfum-blueberry-musk.jpg";
+import parfumNight from "@/assets/parfum-night.jpg";
+import parfumMajestic from "@/assets/parfum-majestic.jpg";
+import parfumPassion from "@/assets/parfum-passion.jpg";
+import parfumMidnight from "@/assets/parfum-midnight.jpg";
+import parfumWickedNoir from "@/assets/parfum-wicked-noir.jpg";
+import parfumMaisonRouge from "@/assets/parfum-maison-rouge.jpg";
+import parfumVanillaTobacco from "@/assets/parfum-vanilla-tobacco.jpg";
+import parfumMalikat from "@/assets/parfum-malikat.jpg";
 import oilDahin from "@/assets/oil-dahin.jpg";
 import oilMukhalatat from "@/assets/oil-mukhalatat.jpg";
 import oilMusc from "@/assets/oil-musc.jpg";
@@ -72,6 +82,86 @@ export const products: Product[] = [
     description: "Un musc délicat et sensuel, empreint de douceur orientale. Élégance et raffinement au quotidien.",
     notes: "Musc Blanc, Ambre, Vanille",
     image: parfumMusc,
+  },
+  {
+    id: "parfum-oud-wood",
+    name: "Just Oud & Wood",
+    category: "parfums",
+    description: "Un parfum boisé intense aux notes profondes de oud. Flacon élégant pour une fragrance masculine et raffinée.",
+    notes: "Oud, Bois, Notes fumées",
+    image: parfumOudWood,
+  },
+  {
+    id: "parfum-blueberry-musk",
+    name: "Blueberry Musk",
+    category: "parfums",
+    description: "Alliance unique de musc et de myrtille dans un flacon bleu royal. Une fragrance fraîche et orientale.",
+    notes: "Musc, Myrtille, Notes orientales",
+    image: parfumBlueberryMusk,
+  },
+  {
+    id: "parfum-night",
+    name: "Night",
+    category: "parfums",
+    description: "Eau de parfum pour femme aux notes mystérieuses et envoûtantes. Un flacon élégant pour les soirées raffinées.",
+    notes: "Ambre, Musc, Fleurs nocturnes",
+    image: parfumNight,
+  },
+  {
+    id: "parfum-majestic",
+    name: "Majestic",
+    category: "parfums",
+    description: "Un parfum royal au flacon doré orné de motifs traditionnels. Fragrance majestueuse et opulente.",
+    notes: "Oud, Or, Épices royales",
+    image: parfumMajestic,
+  },
+  {
+    id: "parfum-passion",
+    name: "Passion",
+    category: "parfums",
+    description: "Eau de parfum féminine aux tons rosés et délicats. Une fragrance passionnée et séduisante.",
+    notes: "Rose, Musc, Vanille",
+    image: parfumPassion,
+  },
+  {
+    id: "parfum-midnight",
+    name: "Midnight",
+    category: "parfums",
+    description: "Parfum pour femme aux teintes violettes envoûtantes. Une fragrance nocturne intense et captivante.",
+    notes: "Fleurs de nuit, Musc, Ambre",
+    image: parfumMidnight,
+  },
+  {
+    id: "parfum-wicked-noir",
+    name: "Wicked Noir",
+    category: "parfums",
+    description: "Un parfum noir intense et mystérieux avec des accents floraux dorés. Audace et sophistication.",
+    notes: "Oud noir, Fleurs, Épices sombres",
+    image: parfumWickedNoir,
+  },
+  {
+    id: "parfum-maison-rouge",
+    name: "Maison Rouge",
+    category: "parfums",
+    description: "Eau de parfum raffinée au flacon doré. Une création élégante aux notes chaudes et enveloppantes.",
+    notes: "Ambre, Bois précieux, Épices",
+    image: parfumMaisonRouge,
+  },
+  {
+    id: "parfum-vanilla-tobacco",
+    name: "Vanilla & Tobacco",
+    category: "parfums",
+    description: "Alliance gourmande de vanille et tabac dans un flacon boisé. Un parfum chaleureux et addictif.",
+    notes: "Vanille, Tabac, Bois",
+    image: parfumVanillaTobacco,
+  },
+  {
+    id: "parfum-malikat-al-hub",
+    name: "Malikat Al Hub",
+    category: "parfums",
+    description: "La Reine de l'Amour, un parfum féminin au flacon rouge velours avec pompon noir. Intense et passionné.",
+    notes: "Rose, Oud, Musc rouge",
+    image: parfumMalikat,
   },
 
   // Oil Perfumes
