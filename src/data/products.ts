@@ -20,6 +20,11 @@ import encensoirCristal from "@/assets/encensoir-cristal.jpg";
 import encensoirArtisanale from "@/assets/encensoir-artisanale.jpg";
 import encensoirMetal from "@/assets/encensoir-metal.jpg";
 import encensoirVerre from "@/assets/encensoir-verre.jpg";
+import encensoirRoyal from "@/assets/encensoir-royal.jpg";
+import encensoirSultan from "@/assets/encensoir-sultan.jpg";
+import encensoirClassique from "@/assets/encensoir-classique.jpg";
+import encensoirSet from "@/assets/encensoir-set.jpg";
+import encensoirLuxe from "@/assets/encensoir-luxe.jpg";
 
 export type Product = {
   id: string;
@@ -208,6 +213,41 @@ export const products: Product[] = [
     category: "accessoires",
     description: "Encensoir en verre soufflé aux teintes dorées. Alliance de modernité et de tradition orientale.",
     image: encensoirVerre,
+  },
+  {
+    id: "encensoir-royal",
+    name: "Encensoir Royal",
+    category: "accessoires",
+    description: "Duo d'encensoirs modernes aux motifs calligraphiques dorés. Disponible en blanc et noir pour une décoration raffinée.",
+    image: encensoirRoyal,
+  },
+  {
+    id: "encensoir-sultan",
+    name: "Encensoir Sultan Set",
+    category: "accessoires",
+    description: "Set complet avec encensoir cristal sur plateau miroir, boîte à encens et pince dorée. L'élégance orientale absolue.",
+    image: encensoirSultan,
+  },
+  {
+    id: "encensoir-classique",
+    name: "Collection Classique",
+    category: "accessoires",
+    description: "Collection d'encensoirs cristal et or aux formes classiques. Différentes tailles disponibles pour tous les intérieurs.",
+    image: encensoirClassique,
+  },
+  {
+    id: "encensoir-set",
+    name: "Encensoir Set Miroir",
+    category: "accessoires",
+    description: "Ensemble encensoir cristal avec plateau miroir doré et accessoires assortis. Un cadeau d'exception.",
+    image: encensoirSet,
+  },
+  {
+    id: "encensoir-luxe",
+    name: "Encensoir Luxe",
+    category: "accessoires",
+    description: "Encensoir cristal de luxe sur plateau miroir avec boîte et pince dorées. Finitions haut de gamme.",
+    image: encensoirLuxe,
   },
 ];
 
