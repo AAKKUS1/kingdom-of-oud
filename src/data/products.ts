@@ -44,6 +44,12 @@ import encensoirCristalMini from "@/assets/encensoir-cristal-mini.jpg";
 import encensoirRamadan from "@/assets/encensoir-ramadan.jpg";
 import encensoirDore from "@/assets/encensoir-dore.jpg";
 import encensoirTresse from "@/assets/encensoir-tresse.jpg";
+import encensoirRoseDore from "@/assets/encensoir-rose-dore.jpg";
+import encensoirCristalBoule from "@/assets/encensoir-cristal-boule.jpg";
+import encensoirGrillage from "@/assets/encensoir-grillage.jpg";
+import encensoirFloral from "@/assets/encensoir-floral.jpg";
+import encensoirFleur from "@/assets/encensoir-fleur.jpg";
+import encensoirCeramique from "@/assets/encensoir-ceramique.jpg";
 
 export type Product = {
   id: string;
@@ -410,6 +416,48 @@ export const products: Product[] = [
     category: "accessoires",
     description: "Encensoir en fibre tressée dorée avec dôme ajouré. Un design artisanal unique et chaleureux.",
     image: encensoirTresse,
+  },
+  {
+    id: "encensoir-rose-dore",
+    name: "Encensoir Rose Doré",
+    category: "accessoires",
+    description: "Encensoir nacré orné d'une guirlande de roses dorées. Base ajourée et fleuron classique pour une élégance royale.",
+    image: encensoirRoseDore,
+  },
+  {
+    id: "encensoir-cristal-boule",
+    name: "Encensoir Cristal Boule",
+    category: "accessoires",
+    description: "Encensoir en cristal taillé avec boule de cristal au sommet. Pétales de verre et touches dorées pour un éclat unique.",
+    image: encensoirCristalBoule,
+  },
+  {
+    id: "encensoir-grillage",
+    name: "Encensoir Grillage Doré",
+    category: "accessoires",
+    description: "Encensoir entièrement doré avec motif grillage et cristal au sommet. Design sur pied d'une finesse remarquable.",
+    image: encensoirGrillage,
+  },
+  {
+    id: "encensoir-floral",
+    name: "Encensoir Floral Doré",
+    category: "accessoires",
+    description: "Encensoir doré aux motifs floraux ajourés avec cristal décoratif. Un bijou d'artisanat aux détails raffinés.",
+    image: encensoirFloral,
+  },
+  {
+    id: "encensoir-fleur",
+    name: "Encensoir Fleur Découpée",
+    category: "accessoires",
+    description: "Encensoir doré avec grandes fleurs découpées. Style audacieux et lumineux pour une diffusion généreuse.",
+    image: encensoirFleur,
+  },
+  {
+    id: "encensoir-ceramique",
+    name: "Encensoir Céramique Rose",
+    category: "accessoires",
+    description: "Encensoir en céramique rose pâle avec couvercle bronze aux motifs floraux sculptés. Douceur et élégance vintage.",
+    image: encensoirCeramique,
   },
 ];
 
