@@ -25,6 +25,15 @@ import encensoirSultan from "@/assets/encensoir-sultan.jpg";
 import encensoirClassique from "@/assets/encensoir-classique.jpg";
 import encensoirSet from "@/assets/encensoir-set.jpg";
 import encensoirLuxe from "@/assets/encensoir-luxe.jpg";
+import encensoirBlancOr from "@/assets/encensoir-blanc-or.jpg";
+import encensoirCalligraphieBlanc from "@/assets/encensoir-calligraphie-blanc.jpg";
+import encensoirPerle from "@/assets/encensoir-perle.jpg";
+import encensoirNoir from "@/assets/encensoir-noir.jpg";
+import encensoirCalligraphieNoir from "@/assets/encensoir-calligraphie-noir.jpg";
+import encensoirCristalMini from "@/assets/encensoir-cristal-mini.jpg";
+import encensoirRamadan from "@/assets/encensoir-ramadan.jpg";
+import encensoirDore from "@/assets/encensoir-dore.jpg";
+import encensoirTresse from "@/assets/encensoir-tresse.jpg";
 
 export type Product = {
   id: string;
@@ -248,6 +257,69 @@ export const products: Product[] = [
     category: "accessoires",
     description: "Encensoir cristal de luxe sur plateau miroir avec boîte et pince dorées. Finitions haut de gamme.",
     image: encensoirLuxe,
+  },
+  {
+    id: "encensoir-blanc-or",
+    name: "Encensoir Blanc & Or",
+    category: "accessoires",
+    description: "Encensoir élégant en blanc mat avec couvercle doré et boule cristal. Design moderne et épuré.",
+    image: encensoirBlancOr,
+  },
+  {
+    id: "encensoir-calligraphie-blanc",
+    name: "Encensoir Calligraphie Blanc",
+    category: "accessoires",
+    description: "Encensoir cube blanc orné de calligraphie arabe dorée. Couvercle ajouré en or pour une diffusion parfaite.",
+    image: encensoirCalligraphieBlanc,
+  },
+  {
+    id: "encensoir-perle",
+    name: "Encensoir Perle",
+    category: "accessoires",
+    description: "Encensoir blanc texturé avec motifs en relief et touches dorées. Un style unique moucheté d'or.",
+    image: encensoirPerle,
+  },
+  {
+    id: "encensoir-noir",
+    name: "Encensoir Noir",
+    category: "accessoires",
+    description: "Encensoir en métal noir avec dôme doré ajouré. Style contemporain aux motifs géométriques.",
+    image: encensoirNoir,
+  },
+  {
+    id: "encensoir-calligraphie-noir",
+    name: "Encensoir Calligraphie Noir",
+    category: "accessoires",
+    description: "Encensoir cube noir orné de calligraphie arabe dorée. L'alliance parfaite du moderne et du traditionnel.",
+    image: encensoirCalligraphieNoir,
+  },
+  {
+    id: "encensoir-cristal-mini",
+    name: "Encensoir Cristal Mini",
+    category: "accessoires",
+    description: "Petit encensoir en cristal taillé avec couvercle doré orné. Format compact idéal pour tous les espaces.",
+    image: encensoirCristalMini,
+  },
+  {
+    id: "encensoir-ramadan",
+    name: "Encensoir Ramadan",
+    category: "accessoires",
+    description: "Encensoir spécial Ramadan avec silhouette de mosquée découpée. Inscription 'Ramadan Mubarak' en calligraphie.",
+    image: encensoirRamadan,
+  },
+  {
+    id: "encensoir-dore",
+    name: "Encensoir Doré",
+    category: "accessoires",
+    description: "Encensoir entièrement doré avec motif palmier gravé. Style traditionnel saoudien d'une grande finesse.",
+    image: encensoirDore,
+  },
+  {
+    id: "encensoir-tresse",
+    name: "Encensoir Tressé",
+    category: "accessoires",
+    description: "Encensoir en fibre tressée dorée avec dôme ajouré. Un design artisanal unique et chaleureux.",
+    image: encensoirTresse,
   },
 ];
 
