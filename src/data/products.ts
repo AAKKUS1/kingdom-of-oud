@@ -50,6 +50,14 @@ import encensoirGrillage from "@/assets/encensoir-grillage.jpg";
 import encensoirFloral from "@/assets/encensoir-floral.jpg";
 import encensoirFleur from "@/assets/encensoir-fleur.jpg";
 import encensoirCeramique from "@/assets/encensoir-ceramique.jpg";
+import encensoirCollectionCristal from "@/assets/encensoir-collection-cristal.jpg";
+import encensoirSetComplet from "@/assets/encensoir-set-complet.jpg";
+import encensoirHexagonal from "@/assets/encensoir-hexagonal.jpg";
+import encensoirNoirDore from "@/assets/encensoir-noir-dore.jpg";
+import encensoirCaftan from "@/assets/encensoir-caftan.jpg";
+import encensoirMosquee from "@/assets/encensoir-mosquee.jpg";
+import encensoirDiamant from "@/assets/encensoir-diamant.jpg";
+import encensoirCouronne from "@/assets/encensoir-couronne.jpg";
 
 export type Product = {
   id: string;
@@ -458,6 +466,62 @@ export const products: Product[] = [
     category: "accessoires",
     description: "Encensoir en céramique rose pâle avec couvercle bronze aux motifs floraux sculptés. Douceur et élégance vintage.",
     image: encensoirCeramique,
+  },
+  {
+    id: "encensoir-collection-cristal",
+    name: "Collection Cristal & Or",
+    category: "accessoires",
+    description: "Ensemble de cinq encensoirs en cristal taillé avec couvercles dorés. Différentes tailles pour une collection complète.",
+    image: encensoirCollectionCristal,
+  },
+  {
+    id: "encensoir-set-complet",
+    name: "Set Complet Lotus",
+    category: "accessoires",
+    description: "Set luxueux avec encensoir lotus cristal sur plateau miroir, boîte à encens, pince et flacon. L'art de recevoir à l'orientale.",
+    image: encensoirSetComplet,
+  },
+  {
+    id: "encensoir-hexagonal",
+    name: "Encensoir Hexagonal",
+    category: "accessoires",
+    description: "Encensoir hexagonal en cristal gravé aux motifs orientaux dorés. Design classique pour une diffusion élégante.",
+    image: encensoirHexagonal,
+  },
+  {
+    id: "encensoir-noir-dore",
+    name: "Encensoir Noir & Or",
+    category: "accessoires",
+    description: "Encensoir cylindrique noir laqué avec dôme ajouré doré et arabesques. Élégance sombre et mystérieuse.",
+    image: encensoirNoirDore,
+  },
+  {
+    id: "encensoir-caftan",
+    name: "Collection Caftan",
+    category: "accessoires",
+    description: "Encensoirs en forme de caftan traditionnel aux couleurs royales. Disponibles en noir, blanc, vert et rouge avec ornements dorés.",
+    image: encensoirCaftan,
+  },
+  {
+    id: "encensoir-mosquee",
+    name: "Encensoir Mosquée",
+    category: "accessoires",
+    description: "Duo d'encensoirs en forme de mosquée avec dôme et arches. Disponibles en noir & or et blanc & or.",
+    image: encensoirMosquee,
+  },
+  {
+    id: "encensoir-diamant",
+    name: "Encensoir Diamant Blanc",
+    category: "accessoires",
+    description: "Encensoir blanc mat avec motifs géométriques dorés en losange. Design moderne sur support circulaire.",
+    image: encensoirDiamant,
+  },
+  {
+    id: "encensoir-couronne",
+    name: "Encensoir Couronne",
+    category: "accessoires",
+    description: "Encensoir blanc en forme de couronne avec perles et cristaux. Dôme doré ajouré pour une touche royale et scintillante.",
+    image: encensoirCouronne,
   },
 ];
 
