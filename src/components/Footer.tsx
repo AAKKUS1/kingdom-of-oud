@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MessageCircle } from "lucide-react";
+import { motion } from "framer-motion";
 import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
@@ -8,15 +9,25 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
             <img src={logo} alt="Kingdom of Oud" className="h-16 w-auto mb-4" />
             <p className="font-elegant text-lg text-muted-foreground leading-relaxed">
               L'art du parfum oriental depuis 2010. Authenticité, tradition et excellence.
             </p>
-          </div>
+          </motion.div>
 
           {/* Links */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+          >
             <h4 className="font-display text-lg text-gold mb-4">Navigation</h4>
             <div className="space-y-2">
               {[
@@ -28,16 +39,21 @@ const Footer = () => {
                 <Link
                   key={link.to}
                   to={link.to}
-                  className="block font-body text-sm text-muted-foreground hover:text-gold transition-colors"
+                  className="block font-body text-sm text-muted-foreground hover:text-gold hover:translate-x-1 transition-all duration-300"
                 >
                   {link.label}
                 </Link>
               ))}
             </div>
-          </div>
+          </motion.div>
 
           {/* Contact */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
             <h4 className="font-display text-lg text-gold mb-4">Contact</h4>
             <div className="space-y-3">
               <a
@@ -59,14 +75,20 @@ const Footer = () => {
                 @almamalakahh
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border text-center">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-12 pt-8 border-t border-border text-center"
+        >
           <p className="font-body text-xs text-muted-foreground tracking-wider">
             © {new Date().getFullYear()} Kingdom of Oud. Tous droits réservés.
           </p>
-        </div>
+        </motion.div>
       </div>
     </footer>
   );
