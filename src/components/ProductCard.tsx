@@ -13,21 +13,34 @@ const ProductCard = ({ product }: ProductCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      whileHover={{ y: -8 }}
-      className="group bg-card border border-border rounded-sm overflow-hidden hover:border-gold/40 hover:shadow-[0_10px_40px_-10px_hsl(43_72%_55%/0.15)] transition-all duration-500"
+      whileHover={{ y: -8, rotateY: 2, rotateX: -1 }}
+      className="group bg-card border border-border rounded-sm overflow-hidden hover:border-gold/40 hover:shadow-[0_10px_40px_-10px_hsl(43_72%_55%/0.2)] transition-all duration-500"
+      style={{ perspective: 1000 }}
     >
       <div className="aspect-square bg-secondary relative overflow-hidden">
         <motion.img
           src={product.image}
           alt={product.name}
           className="w-full h-full object-cover"
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.12 }}
           transition={{ duration: 0.7 }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-        
+
         {/* Shine effect on hover */}
         <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+        {/* Category badge */}
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          className="absolute top-3 left-3 px-2 py-1 bg-background/80 backdrop-blur-sm border border-gold/20 rounded-sm"
+        >
+          <span className="font-body text-[10px] text-gold uppercase tracking-wider">
+            {product.category === "oil-perfumes" ? "Oil" : product.category === "oud-wood" ? "Oud" : ""}
+          </span>
+        </motion.div>
       </div>
 
       <div className="p-5">
