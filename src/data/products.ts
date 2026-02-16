@@ -58,6 +58,22 @@ import encensoirCaftan from "@/assets/encensoir-caftan.jpg";
 import encensoirMosquee from "@/assets/encensoir-mosquee.jpg";
 import encensoirDiamant from "@/assets/encensoir-diamant.jpg";
 import encensoirCouronne from "@/assets/encensoir-couronne.jpg";
+import encensoirCristalOr from "@/assets/encensoir-cristal-or.jpg";
+import encensoirRamadan2 from "@/assets/encensoir-ramadan-2.jpg";
+import encensoirPalmier from "@/assets/encensoir-palmier.jpg";
+import encensoirFleuron from "@/assets/encensoir-fleuron.jpg";
+import encensoirFloralRond from "@/assets/encensoir-floral-rond.jpg";
+import encensoirFleurDecoupe from "@/assets/encensoir-fleur-decoupe.jpg";
+import encensoirTresseBlanc from "@/assets/encensoir-tresse-blanc.jpg";
+import encensoirGeometrique from "@/assets/encensoir-geometrique.jpg";
+import encensoirForteresseRouge from "@/assets/encensoir-forteresse-rouge.jpg";
+import encensoirForteresseNoir from "@/assets/encensoir-forteresse-noir.jpg";
+
+export type ProductVariant = {
+  color: string;
+  colorHex: string;
+  image: string;
+};
 
 export type Product = {
   id: string;
@@ -67,6 +83,7 @@ export type Product = {
   notes?: string;
   featured?: boolean;
   image: string;
+  variants?: ProductVariant[];
 };
 
 export const products: Product[] = [
@@ -522,6 +539,73 @@ export const products: Product[] = [
     category: "accessoires",
     description: "Encensoir blanc en forme de couronne avec perles et cristaux. Dôme doré ajouré pour une touche royale et scintillante.",
     image: encensoirCouronne,
+  },
+  {
+    id: "encensoir-cristal-or",
+    name: "Encensoir Cristal & Or",
+    category: "accessoires",
+    description: "Encensoir en cristal taillé avec couvercle doré orné d'un cristal. Design classique et lumineux.",
+    image: encensoirCristalOr,
+  },
+  {
+    id: "encensoir-ramadan-2",
+    name: "Encensoir Ramadan Mosquée",
+    category: "accessoires",
+    description: "Encensoir Ramadan Mubarak avec silhouette de mosquée 3D découpée et dôme doré ajouré.",
+    image: encensoirRamadan2,
+  },
+  {
+    id: "encensoir-palmier",
+    name: "Encensoir Palmier Doré",
+    category: "accessoires",
+    description: "Encensoir doré en forme de coupe avec motif palmier gravé. Inspiration saoudienne traditionnelle.",
+    image: encensoirPalmier,
+  },
+  {
+    id: "encensoir-fleuron",
+    name: "Encensoir Fleuron Nacré",
+    category: "accessoires",
+    description: "Encensoir nacré avec guirlande de roses dorées et base ajourée. Fleuron élégant au sommet.",
+    image: encensoirFleuron,
+  },
+  {
+    id: "encensoir-floral-rond",
+    name: "Encensoir Floral Rond",
+    category: "accessoires",
+    description: "Encensoir doré rond avec motifs floraux ajourés sur pied. Cristal décoratif au sommet.",
+    image: encensoirFloralRond,
+  },
+  {
+    id: "encensoir-fleur-decoupe-2",
+    name: "Encensoir Fleurs Découpées",
+    category: "accessoires",
+    description: "Encensoir doré aux grandes fleurs découpées sur pied. Design lumineux et généreux.",
+    image: encensoirFleurDecoupe,
+  },
+  {
+    id: "encensoir-tresse-blanc",
+    name: "Encensoir Tressé Blanc",
+    category: "accessoires",
+    description: "Encensoir blanc tressé avec dôme doré ajouré et ornement arabesque. Douceur et raffinement.",
+    image: encensoirTresseBlanc,
+  },
+  {
+    id: "encensoir-geometrique",
+    name: "Encensoir Géométrique",
+    category: "accessoires",
+    description: "Encensoir doré aux motifs géométriques modernes avec cristal au sommet. Style contemporain.",
+    image: encensoirGeometrique,
+  },
+  {
+    id: "encensoir-forteresse",
+    name: "Encensoir Forteresse",
+    category: "accessoires",
+    description: "Encensoir en forme de forteresse avec dôme doré ajouré et motifs triangulaires. Disponible en rouge et noir.",
+    image: encensoirForteresseRouge,
+    variants: [
+      { color: "Rouge", colorHex: "#8B1A1A", image: encensoirForteresseRouge },
+      { color: "Noir", colorHex: "#1a1a1a", image: encensoirForteresseNoir },
+    ],
   },
 ];
 
